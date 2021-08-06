@@ -1,0 +1,201 @@
+.container{
+    width: 7.5rem;
+    margin: 0 auto;
+}
+header{
+   background-color: #fece02;
+    padding:.17rem 0 .18rem;
+}
+header .container{
+    height: .68rem;
+}
+header .container .logo{
+    float: left;
+    margin: 0 .48rem 0 .36rem;
+}
+header .container .logo,header .container .logo img{
+    width: .64rem;
+    height: .64rem;
+}
+header .container .search{
+    float: left;
+    width: 3.86rem;
+    height: .37rem;
+    background-color: #fee579;
+    border-radius: .34rem;
+    padding: .17rem .22rem  .14rem;
+}
+header .container .search img{
+    float: left;
+    width: .38rem;
+    height: .37rem;
+}
+header .container .search input{
+    float: left;
+    width: 3.19rem;
+    height: .37rem;
+    border: none;
+    background: rgba(255,255,255,0);
+    line-height: .37rem;
+    padding-left: .24rem;
+}
+header .container .search input,header .container .search input::placeholder{
+    color: #fff5c9;
+    font-size: .3rem;
+}
+header .container .sm,header .container .sm img{
+    width: .44rem;
+    height: .39rem;
+}
+header .container .sm{
+    float: left;
+    margin: .14rem .49rem 0 .27rem;
+}
+header .container .info,header .container .info img{
+    width: .39rem;
+    height: .43rem;
+}
+header .container .info{
+    float: left;
+    margin-top: .14rem;
+}
+.content .banner,.content .banner img{
+    width: 7.5rem;
+    height: 2.83rem;
+    margin: 0 auto;
+}
+.content nav{
+    padding: .3rem 0;
+    display: inline-block;
+    width: 100%;
+    border-bottom: 2px solid #d3d3d3;
+}
+.content nav .container{
+    width: 6.2rem;
+    margin:0 auto;
+    
+}
+.content nav .container figure{
+    float: left;
+    width: 1.02rem;
+    font-size: .24rem;
+    color: #393939;
+    margin-right: .6rem;
+    text-align: center;
+}
+.content nav .container figure:last-child{
+    margin-right: 0rem;
+}
+.content nav .container figure{
+    margin-left: 0;
+}
+.content nav .container figure a,.content nav .container figure img{
+    width: .93rem;
+    height: .90rem;
+}
+.content nav .container figure a{
+    position: relative;
+    display: inline-block;
+}
+.content nav .container figure a.hot::after{
+    content: "hot";
+    position: absolute;
+    width: .58rem;
+    height: .27rem;
+    background-color: #fe0000;
+    top: -.08rem;
+    right: -.15rem;
+    border-radius: .8rem;
+    line-height: .27rem;
+    font-size: .24rem;
+    color: white;
+    text-align: center;
+    font-style: initial;
+}
+.content nav .container figure figcaption{
+    margin-top: .13rem;
+}
+.content .product{
+    width: 100%;
+    display: inline-block;
+    background-color: #f8f8f8;
+    padding-bottom: 1.1rem;
+}
+.content .product li a{
+    display: block;
+    width: 6.74rem;
+    height: 2.46rem;
+    border: 1px solid #d3d3d3;
+    background-color: #fdfbfe;
+    margin:.22rem auto;
+    padding: .36rem 0 0 .42rem;
+}
+.content .product li .left{
+    float: left;
+    width: 3.3rem;
+    font-family: "宋体"
+}
+.content .product li .left h3{
+    font-size:.42rem;
+    color: #f04e92;
+    line-height: .58rem;
+}
+.content .product li .left .desc{
+    font-size: .27rem;
+    color: #3e3e3e;
+    border-bottom: 2px solid #000;
+    letter-spacing: .02rem;
+    line-height: .43rem;
+}
+.content .product li .left .desc .big{
+    font-size: .6rem;
+    color: #eb4f89;
+    font-weight: bold;
+}
+.content .product li .left .desc .small{
+    font-size: .3rem;
+    color: #eb4f89;
+    font-weight: bold;
+}
+.content .product li .left .more{
+    font-size: .26rem;
+    color: #818181;
+    line-height: .40rem;
+}
+.content .product li .right img{
+    width: 2.95rem;
+    height: 2.13rem;
+}
+.content .product li:nth-child(2n) .left h3,.content .product li:nth-child(2n) .left .desc .big{
+    color: #66cee6;
+}
+footer{
+    height: .87rem;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border-top: 2px solid #c3c3c3;
+    background-color: #fff;
+    padding: .11rem 0 .13rem;
+}
+footer nav a{
+    float: left;
+    width: .97rem;
+    text-align: center;
+    color: #949494;
+    font-size: .24rem;
+    margin: 0 .5rem;
+}
+footer nav a.cur{
+    color: #fea31e;
+}
+footer nav a img{
+     height: .54rem;
+}
+footer nav a:last-child{
+    margin-right: .24rem;
+}
+footer nav a:first-child{
+    margin-left: .28rem;
+}
